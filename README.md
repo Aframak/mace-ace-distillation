@@ -12,5 +12,6 @@ The project explores how predictive knowledge from the MACE foundation model can
 
 **Thesis Author:** Moslem Afrasiabi Kinj
 **Supervisor:** Dr. Alice Allen
-**Institute:** Freie Universität Berlin  
+**Institute:** Freie Universität Berlin
+Guest student at Max-Planck-Institut for Polymer research Mainz
 **Year:** 2025
