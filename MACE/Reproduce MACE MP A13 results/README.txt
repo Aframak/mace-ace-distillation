@@ -1,4 +1,4 @@
-his notebook reproduces results from Section A.13 of MACE MP paper for tungsten (W), molybdenum ()Mo and niobium (Nb) benchmarks using the MACE foundation model (MACE-MP-0 and MACE-MP-FT). It provides a reference for evaluating model accuracy and extracting benchmark properties comparable to DFT data.
+This notebook reproduces results from Section A.13 of MACE MP paper for tungsten (W), molybdenum ()Mo and niobium (Nb) benchmarks using the MACE foundation model (MACE-MP-0 and MACE-MP-FT). It provides a reference for evaluating model accuracy and extracting benchmark properties comparable to DFT data.
 
 Overview
 
@@ -19,7 +19,7 @@ Python ≥ 3.9
 
 ase, torch, mace, numpy, matplotlib
 
-Access to the pre-trained MACE-MP-0 and MACE-MP-FT models
+Access to the pre-trained MACE-MP-0 and MACE-MP-FT models (you can download it from mace documentation with names: "MACE-MP0b3_A13_MD_ft.model" and "2023-12-03-mace-128-L1_epoch-199.model"
 
 
 Usage
