@@ -15,4 +15,5 @@ The project explores how predictive knowledge from the MACE foundation model can
 **Institute:** Freie Universität Berlin
 
 Guest student at Max-Planck-Institut for Polymer research Mainz
+
 **Year:** 2025
