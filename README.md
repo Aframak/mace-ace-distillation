@@ -10,6 +10,7 @@ The project explores how predictive knowledge from the MACE foundation model can
 - Benchmarking scripts for tungsten, molybdenum, and niobium  
 - Analysis notebooks and plotting utilities  
 
-**Thesis Author:** Moslem Afrasiabi Kinj  
+**Thesis Author:** Moslem Afrasiabi Kinj
+**Supervisor:** Dr. Alice Allen
 **Institute:** Freie Universität Berlin  
 **Year:** 2025
