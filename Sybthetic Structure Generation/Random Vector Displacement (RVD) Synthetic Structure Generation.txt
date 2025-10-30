@@ -1,0 +1,14 @@
+Random Vector Displacement (RVD) Synthetic Structure Generation
+
+This script generates randomly displaced atomic configurations to sample the local energy landscape around a base structure. It is mainly used for creating synthetic training data for machine-learning interatomic potentials.
+
+Functions
+
+Generates m random, normalized displacement vectors weighted by atomic masses, ensuring heavier atoms move less.
+
+Produces 2 × m displaced structures by shifting atoms along the random probe directions (+δv and −δv).Energies and forces are computed using teacher_calc and stored in ASE-compatible fields (energy, forces, origin, etc.).
+
+Output:
+
+Returns a list of augmented ASE Atoms objects, which can be saved for training using:
+write("random_disp_augmented.xyz", images)

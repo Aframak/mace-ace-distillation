@@ -1,0 +1,32 @@
+Rattle–Relax–Repeat (RRR) Synthetic Structure Generation
+
+This script automates the generation of synthetic atomic structures using the Rattle–Relax–Repeat (RRR) approach(It uses augment_atoms package available at https://github.com/jla-gardner/augment-atoms from reference [20]). It perturbs existing structures, relaxes them using a reference model, and exports the results in .xyz format for ML potential training.
+
+Function
+
+generate_synthetic_structures(...)Takes an input configuration file, reference structures, and a pretrained model to create augmented data.
+
+Dynamically updates a YAML configuration with user-defined parameters (e.g., temperature, displacement magnitude, force limits).
+
+Loads parent structures, applies stochastic displacements, and relaxes them using the specified MACECalculator.
+
+Aggregates and cleans all generated configurations before saving them.
+
+Parameters
+
+Key arguments include:
+
+n_per_structure: number of structures generated per input
+
+temperature: sampling temperature (K)
+
+beta, sigma_range: control perturbation magnitude
+
+max_force, min_separation: filtering thresholds
+
+max_relax_steps: maximum relaxation iterations
+
+Output
+
+Produces a single .xyz file named according to key parameters, e.g.:
+RRR_synthetic_structures_of_dataset_npr4_T500_beta0.5_sig0.010.1_mf30_ms0.5_mr20.xyz
